@@ -7,7 +7,7 @@ public class PlayerFollow : MonoBehaviour
     public Transform playerTransform;
     private Vector3 cameraOffset;
     [Range(.01f, 1f)]
-    public float smoothFactor = .5f;
+    public float smoothFactor = 1f;
     public bool lookAtPlayer = false;
 
     public bool rotateAroundPlayer = true;
